@@ -178,7 +178,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: d35f85b00a1e32a4a8f25bce5aca3cae, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5336,7 +5335,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 638087165}
-  - component: {fileID: 638087166}
   m_Layer: 0
   m_Name: _GameManager
   m_TagString: Untagged
@@ -5359,19 +5357,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &638087166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638087164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42eb1d43cdddac34daea7f8e83fa84e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isGameover: 0
 --- !u!1 &757750640
 GameObject:
   m_ObjectHideFlags: 0
@@ -5747,7 +5732,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 939440074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea835edf22ea40f4bbb85fc26370308c, type: 3}
+  m_Script: {fileID: 11500000, guid: 53c56008e7ba51d48875c4d1c5946596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &972924648
@@ -5995,7 +5980,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 972924648}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea835edf22ea40f4bbb85fc26370308c, type: 3}
+  m_Script: {fileID: 11500000, guid: 53c56008e7ba51d48875c4d1c5946596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1019038122
@@ -6475,7 +6460,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1120699810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3426b65f1a2f8944ca16076cc641247f, type: 3}
+  m_Script: {fileID: 11500000, guid: 00902285c9c61db45a2bd4b7aded7859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1209168231
@@ -6663,7 +6648,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: d35f85b00a1e32a4a8f25bce5aca3cae, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11731,7 +11715,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1615663062}
-  - component: {fileID: 1615663061}
   m_Layer: 0
   m_Name: Splatters
   m_TagString: Untagged
@@ -11739,28 +11722,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1615663061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615663060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 484730393b10bc3408b7832c03ca30e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colors:
-  - {r: 1, g: 0, b: 0.10196079, a: 1}
-  - {r: 0.03137255, g: 0.2784314, b: 1, a: 1}
-  splatterPrefab: {fileID: 1157633111644078, guid: 273393af49be9194abb1c1e7ac6e2114, type: 3}
-  splatterSprites:
-  - {fileID: 21300000, guid: 69f9fa626ff444549ac5fcb8a5508738, type: 3}
-  - {fileID: 21300002, guid: 69f9fa626ff444549ac5fcb8a5508738, type: 3}
-  - {fileID: 21300004, guid: 69f9fa626ff444549ac5fcb8a5508738, type: 3}
-  - {fileID: 21300006, guid: 69f9fa626ff444549ac5fcb8a5508738, type: 3}
-  - {fileID: 21300008, guid: 69f9fa626ff444549ac5fcb8a5508738, type: 3}
 --- !u!4 &1615663062
 Transform:
   m_ObjectHideFlags: 0
@@ -12008,7 +11969,7 @@ GameObject:
   - component: {fileID: 1847719436}
   - component: {fileID: 1847719437}
   - component: {fileID: 1847719439}
-  - component: {fileID: 1847719438}
+  - component: {fileID: 1847719440}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -12061,22 +12022,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 1
---- !u!114 &1847719438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847719435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2aaf2e4e0af66c54ca5c555956332666, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  redBallCollider: {fileID: 939440076}
-  blueBallCollider: {fileID: 972924650}
-  speed: 2
-  rotationSpeed: 350
 --- !u!58 &1847719439
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12112,6 +12057,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.02
+--- !u!114 &1847719440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847719435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1096f8838c1ec85428378edbd049b3de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  rotationSpeed: 400
+  redBallCollider: {fileID: 0}
+  blueBallCollider: {fileID: 0}
 --- !u!1 &1860916547
 GameObject:
   m_ObjectHideFlags: 0
